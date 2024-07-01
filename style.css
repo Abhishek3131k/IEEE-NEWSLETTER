@@ -1,0 +1,87 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h3 {
+    color: #333;
+    text-align: center;
+}
+p {
+    color: #666;
+    line-height: 1.8;
+}
+.newsletter-banner {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 20px;
+}
+.call-to-action {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.call-to-action a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.registration-process {
+    margin-bottom: 20px;
+}
+.registration-process h3 {
+    margin-top: 20px;
+}
+.latest-updates {
+    margin-bottom: 20px;
+}
+.latest-updates h3 {
+    margin-top: 20px;
+}
+.event-roadmap {
+    margin-bottom: 20px;
+}
+.event-roadmap h1 {
+    margin-top: 20px;
+}
+.event-roadmap ol {
+    padding-left: 0;
+    list-style-type: none;
+    counter-reset: step-counter;
+}
+.event-roadmap ol li {
+    position: relative;
+    counter-increment: step-counter;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.event-roadmap ol li::before {
+    content: counter(step-counter);
+    position: absolute;
+    left: -20px;
+    top: -5px;
+    background-color: #dc3545;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+h1,h2{
+    color: #dc3545;
+    text-align: center;
+}
